@@ -34,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/locator_cam/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="66" lean-forward="false" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+              <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -405,12 +405,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480739653497</updated>
-      <workItem from="1480739655095" duration="368000" />
+      <workItem from="1480739655095" duration="466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="368000" />
+    <option name="totallyTimeSpent" value="466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
@@ -674,7 +674,7 @@
     <entry file="file://$PROJECT_DIR$/locator_cam/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="66" lean-forward="false" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
           <folding />
         </state>
       </provider>

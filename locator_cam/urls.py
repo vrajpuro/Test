@@ -19,7 +19,7 @@ import django.views.defaults
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^locator_cam_app/admin/', include('locator_cam_app.admin')),
+    url(r'^locator_cam_app/', admin.site.urls),
     url(r'^locator-cam/', include('locator_cam_app.urls')),
     url(r'^404/$', django.views.defaults.page_not_found)
 ]
