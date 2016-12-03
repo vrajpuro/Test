@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE_PATH = os.path.join(BASE_DIR, 'templates')
 STATIC_PATH = os.path.join(BASE_DIR, 'static')
 
-LOGIN_URL = '/locator-cam/login/'
+LOGIN_URL = '/pulse-8/login/'
 
 
 # Quick-start development settings - unsuitable for production
@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'locator_cam_app'
+    'pulse-8_app'
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -59,7 +59,7 @@ STATICFILES_DIRS = (
     STATIC_PATH,
 )
 
-ROOT_URLCONF = 'locator_cam.urls'
+ROOT_URLCONF = 'pulse-8.urls'
 
 TEMPLATES = [
     {
@@ -77,7 +77,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'locator_cam.wsgi.application'
+WSGI_APPLICATION = 'pulse-8.wsgi.application'
 
 
 # Database
