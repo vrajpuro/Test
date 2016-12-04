@@ -86,11 +86,11 @@ WSGI_APPLICATION = 'locator_cam.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'locatorcam',
-        'USER': 'locatorcamuser',
-        'PASSWORD': 'locatorcamuser',
-        'HOST': 'localhost',
-        'PORT': ''
+        'NAME': 'd8kp2gncs8bgur',
+        'USER': 'gtlcsqhjjwvzhj',
+        'PASSWORD': 'cUGnwD28AqijgmFRLkzuDl7FGU',
+        'HOST': 'ec2-54-225-90-198.compute-1.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
