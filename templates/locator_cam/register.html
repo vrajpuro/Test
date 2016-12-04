@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>LocatorCam</title>
+	<title>Pulse-8</title>
 </head>
 <body>
-	<h1>Register in LocatorCam</h1>
+	<h1>Register in Pulse-8</h1>
 
 	{% if registered %}
 	<div><p>thank you for registering</p></div>
-	<div><a href="/locator-cam/">Go back to home page: </a></div>
+	<div><a href="/">Go back to home page: </a></div>
 	{% else %}
 	<p>Register here!</p>
-	<form method="post" action="/locator-cam/register/">
+	<form method="post" action="/register/">
 		{% csrf_token %}
 
 		{{ user_form.as_p }}
