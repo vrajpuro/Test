@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE_PATH = os.path.join(BASE_DIR, 'templates')
 STATIC_PATH = os.path.join(BASE_DIR, 'static')
 
-LOGIN_URL = '/locator-cam/login/'
+LOGIN_URL = 'templates/locator-cam/login/'
 
 
 # Quick-start development settings - unsuitable for production
