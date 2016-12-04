@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE_PATH = os.path.join(BASE_DIR, 'templates')
 STATIC_PATH = os.path.join(BASE_DIR, 'static')
 
-LOGIN_URL = '/pulse-8/login/'
+LOGIN_URL = '/locator-cam/login/'
 
 
 # Quick-start development settings - unsuitable for production
@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'pulse-8_app'
+    'locator_cam_app'
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -59,7 +59,7 @@ STATICFILES_DIRS = (
     STATIC_PATH,
 )
 
-ROOT_URLCONF = 'pulse-8.urls'
+ROOT_URLCONF = 'locator_cam.urls'
 
 TEMPLATES = [
     {
@@ -77,7 +77,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'pulse-8.wsgi.application'
+WSGI_APPLICATION = 'locator_cam.wsgi.application'
 
 
 # Database
@@ -86,11 +86,11 @@ WSGI_APPLICATION = 'pulse-8.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd8kp2gncs8bgur',
-        'USER': 'gtlcsqhjjwvzhj',
-        'PASSWORD': 'cUGnwD28AqijgmFRLkzuDl7FGU',
-        'HOST': 'ec2-54-225-90-198.compute-1.amazonaws.com',
-        'PORT': '5432'
+        'NAME': 'locatorcam',
+        'USER': 'locatorcamuser',
+        'PASSWORD': 'locatorcamuser',
+        'HOST': 'localhost',
+        'PORT': ''
     }
 }
 
