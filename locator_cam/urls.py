@@ -14,15 +14,6 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url, include
-from django.contrib import admin
-import django.views.defaults
-
-urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^locator-cam/', include('locator_cam.urls')),
-    url(r'^404/$', django.views.defaults.page_not_found)
-]
 
 
 from django.conf.urls import url
@@ -54,5 +45,8 @@ urlpatterns = [
 	url(r'^remove-administrator-from-channel/$', views.remove_administrator_from_channel, name='remove-administrator-from-channel'),
 	url(r'^delete-channel/$', views.delete_channel, name='delete-channel'),
 	url(r'^leave-channel/$', views.leave_channel, name='leave-channel')
+	url(r'^admin/', admin.site.urls),
+	url(r'^locator-cam/', include('locator_cam.urls')),
+	url(r'^404/$', django.views.defaults.page_not_found)
 ]
 
