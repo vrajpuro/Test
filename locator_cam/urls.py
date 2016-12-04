@@ -45,8 +45,5 @@ urlpatterns = [
 	url(r'^remove-administrator-from-channel/$', views.remove_administrator_from_channel, name='remove-administrator-from-channel'),
 	url(r'^delete-channel/$', views.delete_channel, name='delete-channel'),
 	url(r'^leave-channel/$', views.leave_channel, name='leave-channel')
-	url(r'^admin/', admin.site.urls),
-	url(r'^locator-cam/', include('locator_cam.urls')),
-	url(r'^404/$', django.views.defaults.page_not_found)
 ]
 
