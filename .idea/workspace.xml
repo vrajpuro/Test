@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87848c79-4342-4127-93c5-49e4adf6d46f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locator_cam/models.py" afterPath="$PROJECT_DIR$/locator_cam/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locator_cam/views.py" afterPath="$PROJECT_DIR$/locator_cam/views.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/locator_cam/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/locator_cam/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/locator_cam/register.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/locator_cam/search_user.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/locator_cam/upload_moment.html" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,48 +39,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/locator_cam/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="281" column="66" lean-forward="true" selection-start-line="281" selection-start-column="66" selection-end-line="281" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/locator_cam/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/locator_cam/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search_user.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/locator_cam/search_user.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="upload_moment.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/locator_cam/upload_moment.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state relative-caret-position="134">
+              <caret line="270" column="49" lean-forward="true" selection-start-line="270" selection-start-column="49" selection-end-line="270" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -112,16 +75,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="18" lean-forward="true" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/locator_cam/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -830,12 +783,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480886256862</updated>
-      <workItem from="1480886258599" duration="3647000" />
+      <workItem from="1480886258599" duration="3753000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3647000" />
+    <option name="totallyTimeSpent" value="3753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1280,8 +1233,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/locator_cam/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="281" column="66" lean-forward="true" selection-start-line="281" selection-start-column="66" selection-end-line="281" selection-end-column="66" />
+        <state relative-caret-position="134">
+          <caret line="270" column="49" lean-forward="true" selection-start-line="270" selection-start-column="49" selection-end-line="270" selection-end-column="49" />
           <folding />
         </state>
       </provider>
