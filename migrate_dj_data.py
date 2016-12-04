@@ -7,7 +7,7 @@ import django
 django.setup()
 from django.contrib.auth.models import User
 
-from locator_cam_app.models import Moment, MomentPhoto, MomentThumbnail, UserProfile
+from locator_cam.models import Moment, MomentPhoto, MomentThumbnail, UserProfile
 
 
 data = json.load(open('fishboard-export.json'))
