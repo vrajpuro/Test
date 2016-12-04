@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87848c79-4342-4127-93c5-49e4adf6d46f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/locator_cam/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/locator_cam/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/locator_cam/register.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/locator_cam/search_user.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/locator_cam/upload_moment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/locator_cam/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/locator_cam/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/locator_cam/register.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/locator_cam/search_user.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/locator_cam/upload_moment.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locator_cam/views.py" afterPath="$PROJECT_DIR$/locator_cam/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,8 +40,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/locator_cam/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="270" column="49" lean-forward="true" selection-start-line="270" selection-start-column="49" selection-end-line="270" selection-end-column="49" />
+            <state relative-caret-position="17">
+              <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -783,12 +784,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480886256862</updated>
-      <workItem from="1480886258599" duration="3753000" />
+      <workItem from="1480886258599" duration="3988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3753000" />
+    <option name="totallyTimeSpent" value="3988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1233,8 +1234,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/locator_cam/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="270" column="49" lean-forward="true" selection-start-line="270" selection-start-column="49" selection-end-line="270" selection-end-column="49" />
+        <state relative-caret-position="17">
+          <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="43" />
           <folding />
         </state>
       </provider>
