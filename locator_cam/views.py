@@ -21,10 +21,10 @@ def index(request):
 		friends_profiles = UserProfile.objects.get(user__username=request.user.username).friends.all()		
 		all_moments = Moment.objects.filter(Q(user__userprofile__in=friends_profiles) | Q(user__userprofile=my_profile))
 		# all_moments_urls = [moment.thumbnail.url + ' ' + str(moment.pub_time) for moment in all_moments]
-		return render(request, 'locator_cam/index.html', {'moments': all_moments})
+		return render(request, '/index.html', {'moments': all_moments})
 	else:
 		print('user is none')
-	return render(request, 'locator_cam/index.html')
+	return render(request, '/index.html')
 
 def register(request):
 	registered = False
@@ -68,7 +68,7 @@ def register(request):
 	else:
 		user_form = UserForm()
 		profile_form = UserProfileForm()
-		return render(request, 'locator_cam/register.html', {'user_form': user_form, 'profile_form': profile_form, 'registered': registered})
+		return render(request, '/register.html', {'user_form': user_form, 'profile_form': profile_form, 'registered': registered})
 
 def user_login(request):
 	if request.method == 'POST':
@@ -100,7 +100,7 @@ def user_login(request):
 
 		return HttpResponse(json.dumps(user_info))
 	else:
-		return render(request, 'locator_cam/login.html', {})
+		return render(request, '/login.html', {})
 
 @login_required
 def search_user(request):
@@ -115,7 +115,7 @@ def search_user(request):
 			}
 			return HttpResponse(json.dumps(res_json))
 
-	return render(request, 'locator_cam/search_user.html', {'users': users})
+	return render(request, '/search_user.html', {'users': users})
 
 @login_required
 def add_friend(request):
@@ -204,7 +204,7 @@ def upload_moment(request):
 		thumbnail_form = MomentThumbnailForm()
 		moment_form = MomentForm()
 
-	return render(request, 'locator_cam/upload_moment.html', {'photo_form': photo_form, 'thumbnail_form': thumbnail_form, 'moment_form': moment_form})
+	return render(request, '/upload_moment.html', {'photo_form': photo_form, 'thumbnail_form': thumbnail_form, 'moment_form': moment_form})
 
 @login_required
 def fetch_moments(request):
@@ -277,7 +277,7 @@ def fetch_moments(request):
 			} for moment in all_moments]
 			return HttpResponse(json.dumps(moments_json))
 		else:
-			return render(request, 'locator_cam/index.html', {'moments': all_moments})
+			return render(request, '/index.html', {'moments': all_moments})
 	else:
 		return HttpResponse('This API only supports POST request')
 
