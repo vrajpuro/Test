@@ -1,6 +1,6 @@
 from django import forms
 from django.contrib.auth.models import User
-from locator_cam_app.models import UserProfile, MomentPhoto, MomentThumbnail, Moment
+from locator_cam.models import UserProfile, MomentPhoto, MomentThumbnail, Moment
 
 class UserForm(forms.ModelForm):
 	password = forms.CharField(widget=forms.PasswordInput)

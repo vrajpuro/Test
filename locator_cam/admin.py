@@ -1,5 +1,5 @@
 from django.contrib import admin
-from locator_cam_app.models import MomentPhoto, Moment, UserProfile, MomentThumbnail
+from locator_cam.models import MomentPhoto, Moment, UserProfile, MomentThumbnail
 
 # Register your models here.
 admin.site.register(MomentPhoto)
