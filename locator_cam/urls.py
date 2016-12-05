@@ -17,6 +17,7 @@ Including another URLconf
 
 
     url(r'^leave-channel/$', views.leave_channel, name='leave-channel')
+    url(r'^locator_cam/', include('locator_cam.urls')),
 
 """
 
@@ -26,7 +27,6 @@ import django.views.defaults
 from . import views
 
 urlpatterns = patterns('',
-    url(r'^locator_cam/', include('locator_cam.urls')),
     url(r'^404/$', django.views.defaults.page_not_found),
 	url(r'^$', views.index, name='index'),
 	url(r'^register/$', views.register, name='register'),
