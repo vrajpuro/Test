@@ -151,7 +151,7 @@ def get_all_friends(request):
 @login_required
 def logout_user(request):
 	logout(request)
-	return redirect('/locator-cam')
+	return redirect('/')
 
 @login_required
 def unfriend(request):
