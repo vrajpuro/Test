@@ -21,10 +21,11 @@ from django.conf.urls import url
 from django.contrib import admin
 import django.views.defaults
 from . import views
+import polls.urls
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^locator-cam/', include('locator_cam.urls')),
+    url(r'^locator_cam/', include('locator_cam.urls')),
     url(r'^404/$', django.views.defaults.page_not_found)
 	url(r'^$', views.index, name='index'),
 	url(r'^register/$', views.register, name='register'),
