@@ -22,11 +22,10 @@ Including another URLconf
 
 
 from django.conf.urls import patterns, include, url
-from django.contrib import admin
 import django.views.defaults
 from . import views
 
-urlpatterns = patterns['',
+urlpatterns = patterns('',
     url(r'^locator_cam/', include('locator_cam.urls')),
     url(r'^404/$', django.views.defaults.page_not_found),
 	url(r'^$', views.index, name='index'),
@@ -52,6 +51,6 @@ urlpatterns = patterns['',
 	url(r'^remove-member-from-channel/$', views.remove_member_from_channel, name='remove-member-from-channel'),
 	url(r'^remove-administrator-from-channel/$', views.remove_administrator_from_channel, name='remove-administrator-from-channel'),
 	url(r'^delete-channel/$', views.delete_channel, name='delete-channel'),
-]
+                       )
 
 
