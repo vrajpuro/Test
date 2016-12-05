@@ -41,8 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'locator_cam',
-    'south'
+    'locator_cam'
 ]
 
 MIDDLEWARE_CLASSES = [
