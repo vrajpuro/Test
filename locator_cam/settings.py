@@ -59,6 +59,13 @@ STATICFILES_DIRS = (
     STATIC_PATH,
 )
 
+# Simplified static file serving.
+# https://warehouse.python.org/project/whitenoise/
+
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
+
+
 ROOT_URLCONF = 'locator_cam.urls'
 
 TEMPLATES = [
@@ -139,7 +146,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # Heroku deployment settings
 
 import dj_database_url
-DATABASES['default'] = dj_database_url.config()
+db_from_env = dj_database_url.config()
+DATABASES['default'].update(db_from_env)
+
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
