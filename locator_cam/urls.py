@@ -17,13 +17,12 @@ Including another URLconf
 """
 
 
-from django.conf.urls import url
+from django.conf.urls import patterns, include, url
 from django.contrib import admin
 import django.views.defaults
 from . import views
-import polls.urls
 
-urlpatterns = [
+urlpatterns = patterns['',
     url(r'^admin/', admin.site.urls),
     url(r'^locator_cam/', include('locator_cam.urls')),
     url(r'^404/$', django.views.defaults.page_not_found)
