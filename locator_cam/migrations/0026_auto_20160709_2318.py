@@ -11,7 +11,7 @@ class Migration(migrations.Migration):
 
     dependencies = [
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
-        ('locator_cam_app', '0025_auto_20160625_2358'),
+        ('locator_cam', '0025_auto_20160625_2358'),
     ]
 
     operations = [
@@ -26,27 +26,27 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='ChannelInvitation',
             fields=[
-                ('request_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to='locator_cam_app.Request')),
-                ('channel', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='locator_cam_app.Channel')),
+                ('request_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to='locator_cam.Request')),
+                ('channel', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='locator_cam.Channel')),
                 ('invitee', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
             ],
-            bases=('locator_cam_app.request',),
+            bases=('locator_cam.request',),
         ),
         migrations.CreateModel(
             name='ChannelRequest',
             fields=[
-                ('request_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to='locator_cam_app.Request')),
-                ('channel', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='locator_cam_app.Channel')),
+                ('request_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to='locator_cam.Request')),
+                ('channel', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='locator_cam.Channel')),
             ],
-            bases=('locator_cam_app.request',),
+            bases=('locator_cam.request',),
         ),
         migrations.CreateModel(
             name='FriendRequest',
             fields=[
-                ('request_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to='locator_cam_app.Request')),
+                ('request_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to='locator_cam.Request')),
                 ('requestee', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
             ],
-            bases=('locator_cam_app.request',),
+            bases=('locator_cam.request',),
         ),
         migrations.AddField(
             model_name='request',

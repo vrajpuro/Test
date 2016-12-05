@@ -9,7 +9,7 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('locator_cam_app', '0018_auto_20160610_0138'),
+        ('locator_cam', '0018_auto_20160610_0138'),
     ]
 
     operations = [
@@ -29,16 +29,16 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='channel',
             name='channel_managers',
-            field=models.ManyToManyField(related_name='manage_channels', to='locator_cam_app.UserProfile'),
+            field=models.ManyToManyField(related_name='manage_channels', to='locator_cam.UserProfile'),
         ),
         migrations.AddField(
             model_name='channel',
             name='members',
-            field=models.ManyToManyField(related_name='membership_channels', to='locator_cam_app.UserProfile'),
+            field=models.ManyToManyField(related_name='membership_channels', to='locator_cam.UserProfile'),
         ),
         migrations.AddField(
             model_name='channel',
             name='user_created',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='locator_cam_app.UserProfile'),
+            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='locator_cam.UserProfile'),
         ),
     ]

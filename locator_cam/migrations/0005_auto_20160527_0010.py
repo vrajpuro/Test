@@ -8,7 +8,7 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('locator_cam_app', '0004_auto_20160526_2356'),
+        ('locator_cam', '0004_auto_20160526_2356'),
     ]
 
     operations = [

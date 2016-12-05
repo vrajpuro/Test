@@ -39,14 +39,14 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('picture', models.ImageField(blank=True, upload_to='profile_images')),
-                ('friends', models.ManyToManyField(related_name='_userprofile_friends_+', to='locator_cam_app.UserProfile')),
+                ('friends', models.ManyToManyField(related_name='_userprofile_friends_+', to='locator_cam.UserProfile')),
                 ('user', models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
             ],
         ),
         migrations.AddField(
             model_name='moment',
             name='photo',
-            field=models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, to='locator_cam_app.Photo'),
+            field=models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, to='locator_cam.Photo'),
         ),
         migrations.AddField(
             model_name='moment',

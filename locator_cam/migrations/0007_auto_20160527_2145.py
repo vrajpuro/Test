@@ -9,7 +9,7 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('locator_cam_app', '0006_auto_20160527_0010'),
+        ('locator_cam', '0006_auto_20160527_0010'),
     ]
 
     operations = [

@@ -8,7 +8,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('locator_cam_app', '0019_auto_20160619_0140'),
+        ('locator_cam', '0019_auto_20160619_0140'),
     ]
 
     operations = [
@@ -19,6 +19,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='channel',
             name='administrators',
-            field=models.ManyToManyField(related_name='admin_channels', to='locator_cam_app.UserProfile'),
+            field=models.ManyToManyField(related_name='admin_channels', to='locator_cam.UserProfile'),
         ),
     ]

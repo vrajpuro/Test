@@ -9,13 +9,13 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('locator_cam_app', '0021_channel_description'),
+        ('locator_cam', '0021_channel_description'),
     ]
 
     operations = [
         migrations.AddField(
             model_name='moment',
             name='channel',
-            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, to='locator_cam_app.Channel'),
+            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, to='locator_cam.Channel'),
         ),
     ]

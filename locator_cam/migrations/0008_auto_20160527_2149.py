@@ -9,7 +9,7 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('locator_cam_app', '0007_auto_20160527_2145'),
+        ('locator_cam', '0007_auto_20160527_2145'),
     ]
 
     operations = [
@@ -20,6 +20,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='moment',
             name='photo',
-            field=models.OneToOneField(default=None, on_delete=django.db.models.deletion.CASCADE, to='locator_cam_app.Photo'),
+            field=models.OneToOneField(default=None, on_delete=django.db.models.deletion.CASCADE, to='locator_cam.Photo'),
         ),
     ]
