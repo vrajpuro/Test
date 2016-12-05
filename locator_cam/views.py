@@ -115,7 +115,7 @@ def search_user(request):
 			}
 			return HttpResponse(json.dumps(res_json))
 
-	return render(request, 'locator_cam/search_user.html', {'users': users})
+	return render(request, '/search_user.html', {'users': users})
 
 @login_required
 def add_friend(request):
