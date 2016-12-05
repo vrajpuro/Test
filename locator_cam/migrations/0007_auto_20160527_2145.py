@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='photo',
             name='moment',
-            field=models.OneToOneField(default='', on_delete=django.db.models.deletion.CASCADE, to='locator_cam_app.Moment'),
+            field=models.OneToOneField(default='', on_delete=django.db.models.deletion.CASCADE, to='locator_cam.Moment'),
             preserve_default=False,
         ),
         migrations.AlterField(
