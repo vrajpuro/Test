@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87848c79-4342-4127-93c5-49e4adf6d46f" name="Default" comment="" />
+    <list default="true" id="87848c79-4342-4127-93c5-49e4adf6d46f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locator_cam/settings.py" afterPath="$PROJECT_DIR$/locator_cam/settings.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +55,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/locator_cam/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="442">
+              <caret line="26" column="65" lean-forward="false" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -793,12 +795,12 @@
       <updated>1480886256862</updated>
       <workItem from="1480886258599" duration="5023000" />
       <workItem from="1480893478927" duration="763000" />
-      <workItem from="1480894350318" duration="1937000" />
+      <workItem from="1480894350318" duration="2601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7723000" />
+    <option name="totallyTimeSpent" value="8387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1247,8 +1249,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/locator_cam/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="442">
+          <caret line="26" column="65" lean-forward="false" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
           <folding />
         </state>
       </provider>
