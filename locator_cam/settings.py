@@ -93,7 +93,7 @@ WSGI_APPLICATION = 'locator_cam.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'd8kp2gncs8bgur',
         'USER': 'gtlcsqhjjwvzhj',
         'PASSWORD': 'cUGnwD28AqijgmFRLkzuDl7FGU',
