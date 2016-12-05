@@ -20,7 +20,7 @@ def index(request):
 		my_profile = request.user.userprofile
 		friends_profiles = UserProfile.objects.get(user__username=request.user.username).friends.all()		
 		all_moments = Moment.objects.filter(Q(user__userprofile__in=friends_profiles) | Q(user__userprofile=my_profile))
-		all_moments_urls = [moment.thumbnail.url + ' ' + str(moment.pub_time) for moment in all_moments]
+		#all_moments_urls = [moment.thumbnail.url + ' ' + str(moment.pub_time) for moment in all_moments]
 		return render(request, 'locator_cam/index.html', {'moments': all_moments})
 	else:
 		print('user is none')
