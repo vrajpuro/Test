@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'locator_cam'
+    'locator_cam',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -93,10 +93,10 @@ WSGI_APPLICATION = 'locator_cam.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd8kp2gncs8bgur',
-        'USER': 'gtlcsqhjjwvzhj',
-        'PASSWORD': 'cUGnwD28AqijgmFRLkzuDl7FGU',
-        'HOST': 'ec2-54-225-90-198.compute-1.amazonaws.com',
+        'NAME': 'd571cf34rpdtp7',
+        'USER': 'fwyhntnjyhhquc',
+        'PASSWORD': 'Dxsb5PCE5OGZcObPD3CKH_Qm96',
+        'HOST': 'ec2-23-21-96-70.compute-1.amazonaws.com',
         'PORT': '5432'
     }
 }
