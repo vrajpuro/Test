@@ -13,11 +13,20 @@ Class-based views
 Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
+
+
+    urlpatterns = [
+	url(r'^admin/', admin.site.urls),
+	url(r'^locator-cam/', include('locator_cam_app.urls')),
+	url(r'^404/$', django.views.defaults.page_not_found)
+
+
 """
 
 
 from django.conf.urls import url
-
+from django.contrib import admin
+import django.views.defaults
 from . import views
 
 urlpatterns = [
@@ -46,4 +55,13 @@ urlpatterns = [
 	url(r'^delete-channel/$', views.delete_channel, name='delete-channel'),
 	url(r'^leave-channel/$', views.leave_channel, name='leave-channel')
 ]
+
+
+
+
+
+
+
+]
+
 

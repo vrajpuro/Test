@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'locator_cam'
-    'locator.cam'
 ]
 
 MIDDLEWARE_CLASSES = [
