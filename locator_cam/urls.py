@@ -17,16 +17,18 @@ Including another URLconf
 
     urlpatterns = [
 	url(r'^admin/', admin.site.urls),
-	url(r'^locator-cam/', include('locator_cam_app.urls')),
+	url(r'^locator-cam/', include('locator_cam.urls')),
 	url(r'^404/$', django.views.defaults.page_not_found)
+
+	from django.contrib import admin
+import django.views.defaults
 
 
 """
 
 
 from django.conf.urls import url
-from django.contrib import admin
-import django.views.defaults
+
 from . import views
 
 urlpatterns = [
@@ -54,14 +56,6 @@ urlpatterns = [
 	url(r'^remove-administrator-from-channel/$', views.remove_administrator_from_channel, name='remove-administrator-from-channel'),
 	url(r'^delete-channel/$', views.delete_channel, name='delete-channel'),
 	url(r'^leave-channel/$', views.leave_channel, name='leave-channel')
-]
-
-
-
-
-
-
-
 ]
 
 
