@@ -27,7 +27,7 @@ LOGIN_URL = '/locator-cam/login/'
 SECRET_KEY = ')4kwqmv%v708xv1jhsgg0qw-i!kz*y0k2gb*7m-+i+sq8o(8uw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
