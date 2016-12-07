@@ -37,7 +37,7 @@
 
 <div class="container">
 
-    <form class="form-signin" method="post" action="{% url 'pulse-8:homepage' %}">
+    <form class="form-signin" method="post" action="{% url '/homepage' %}">
         {% csrf_token %}
         <h2 class="form-signin-heading">Please sign in</h2>
         <label for="inputEmail" class="sr-only">Username</label>
