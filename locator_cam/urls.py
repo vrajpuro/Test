@@ -31,7 +31,7 @@ from . import views
 urlpatterns = patterns('',
     url(r'^404/$', django.views.defaults.page_not_found),
 	url(r'^$', views.index, name='index'),
-	url(r'^homepage/$', 'homepage', name='homepage'),
+	url(r'^$', homepage.as_view(), name='homepage'),
 	url(r'^register/$', views.register, name='register'),
 	url(r'^login/$', views.user_login, name='login'),
 	url(r'^search-user/$', views.search_user, name='search-user'),
