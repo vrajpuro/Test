@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pulse-8</title>
+</head>
+<body>
+	<h1>Share your moment</h1>
+	<form method="post" action="/upload-moment/" enctype="multipart/form-data">
+		{% csrf_token %}
+
+		{{ photo_form.as_p }}
+		{{ thumbnail_form.as_p }}
+		{{ moment_form.as_p }}
+		<input type="submit" name="submit" value="upload">
+	</form>
+</body>
+</html>
