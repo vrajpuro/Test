@@ -51,9 +51,9 @@ urlpatterns = patterns('',
 	url(r'^remove-member-from-channel/$', views.remove_member_from_channel, name='remove-member-from-channel'),
 	url(r'^remove-administrator-from-channel/$', views.remove_administrator_from_channel, name='remove-administrator-from-channel'),
 	url(r'^delete-channel/$', views.delete_channel, name='delete-channel'),
-	+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-	                      )
 
+	                      )
++ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 urlpatterns += staticfiles_urlpatterns()
 
 
