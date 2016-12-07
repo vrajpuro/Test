@@ -37,8 +37,6 @@
 
 <div class="container">
 
-    <form class="form-signin" method="post" action="/404/">
-        {% csrf_token %}
         <h2 class="form-signin-heading">Please sign in</h2>
         <label for="inputEmail" class="sr-only">Username</label>
         <input type="username" id="inputEmail" class="form-control" placeholder="Username" name="username" required autofocus>
@@ -49,8 +47,8 @@
                 <input type="checkbox" value="remember-me"> Remember me
             </label>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-    </form>
+    <button class="btn btn-lg btn-primary btn-block" ><a href="/search-user/"> Sign in</a></button>
+    </>
 
 </div> <!-- /container -->
 
