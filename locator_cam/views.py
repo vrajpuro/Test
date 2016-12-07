@@ -24,7 +24,7 @@ def index(request):
 		return render(request, 'locator_cam/index.html', {'moments': all_moments})
 	else:
 		print('user is none')
-	return render(request, 'locator_cam/login.html')
+	return render(request, 'locator_cam/index.html')
 
 def register(request):
 	registered = False
