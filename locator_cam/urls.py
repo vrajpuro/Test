@@ -26,6 +26,7 @@ from django.conf.urls import patterns, include, url
 from django.conf.urls.static import static
 from django.conf import settings
 import django.views.defaults
+from locator_cam import homepage
 from . import views
 
 urlpatterns = patterns('',
