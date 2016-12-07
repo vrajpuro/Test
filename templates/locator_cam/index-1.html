@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Puls-8 Web Portal</title>
+</head>
+<body>
+	<h1>Pulse-8 Wep Portal</h1>
+	{% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+            <p>{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</p>
+        {% endfor %}
+    </ul>
+	{% endif %}
+	<p><a href="/register">Register</a></p>
+	<p><a href="/login/">Login</a></p>
+	<p><a href="/logout/">Logout</a></p>
+	<p><a href="/search-user/">Search User</a></p>
+	<p><a href="/upload-moment/">Upload Moment</a></p>
+	{% if user.username %}
+	<p>User Profile:</p>
+	<p>Username: {{ user.username }}</p>
+	<p>Email: {{ user.email }}</p>
+	{% if user.userprofile.friends.all.count > 0 %}
+	<h2>Friends</h2>
+	<ul>
+		{% for friend in user.userprofile.friends.all %}
+		<li>{{friend.user.username}}</li>
+		<form method="post" action="/unfriend/">
+			{% csrf_token %}
+			<input type="hidden" name="username" value="{{friend.user.username}}">
+			<input type="submit" name="submit" value="unfriend"/>
+		</form>
+		{% endfor %}
+	</ul>
+	{% endif %}
+	<h2>Moments</h2>
+	{% if moments %}
+	<ul>
+		{% for moment in moments %}
+		<li>Description: {{moment.description}}, <!--Url: {{ moment.thumbnail.url }}, -->publication date: {{ moment.pub_time }}</li>
+		{% if moment.user == user %}
+		<form method="post" action="/delete-moment/">
+			<input type="hidden" name="pk" value="{{ moment.pk }}">
+			<input type="submit" name="submit" value="delete">
+		</form>
+		{% endif %}
+		{% endfor %}
+	</ul>
+	{% endif %}
+	{% endif %}
+</body>
+</html>
