@@ -6,13 +6,6 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
-	<h1>Pulse-8 Login</h1>
-	<form method="post" action="/login/">
-		{% csrf_token %}
-		<p>Username: <input type="text" name="username" value=""/></p>
-		<p>Password: <input type="password" name="password" value=""/></p>
-		<input type="submit" name="submit" value="login"/>
-	</form>
 
     <div class="login-page">
         <div class="form">
@@ -23,7 +16,8 @@
                 <button>create</button>
                 <p class="message">Already registered? <a href="#">Sign In</a></p>
             </form>
-            <form class="login-form">
+            <form class="login-form" method="post" action="/login/">
+                {% csrf_token %}
                 <input type="text" placeholder="username"/>
                 <input type="password" placeholder="password"/>
                 <button>login</button>
