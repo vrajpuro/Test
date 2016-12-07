@@ -24,9 +24,10 @@
         <entry file="file://$PROJECT_DIR$/templates/locator_cam/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+              <caret line="35" column="69" lean-forward="false" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
               <folding>
-                <element signature="e#2104#2110#0" expanded="true" />
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2115#2121#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -895,12 +896,12 @@
       <workItem from="1480967078648" duration="687000" />
       <workItem from="1480968427116" duration="1306000" />
       <workItem from="1481066478667" duration="7000" />
-      <workItem from="1481068198915" duration="15621000" />
+      <workItem from="1481068198915" duration="15713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33287000" />
+    <option name="totallyTimeSpent" value="33379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1318,9 +1319,10 @@
     <entry file="file://$PROJECT_DIR$/templates/locator_cam/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+          <caret line="35" column="69" lean-forward="false" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
           <folding>
-            <element signature="e#2104#2110#0" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2115#2121#0" expanded="true" />
           </folding>
         </state>
       </provider>
