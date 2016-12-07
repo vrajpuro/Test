@@ -23,6 +23,8 @@ Including another URLconf
 
 
 from django.conf.urls import patterns, include, url
+from django.conf.urls.static import static
+from django.conf import settings
 import django.views.defaults
 from . import views
 
@@ -52,3 +54,4 @@ urlpatterns = patterns('',
 	url(r'^remove-administrator-from-channel/$', views.remove_administrator_from_channel, name='remove-administrator-from-channel'),
 	url(r'^delete-channel/$', views.delete_channel, name='delete-channel')
 	) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
