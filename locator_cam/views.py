@@ -100,7 +100,7 @@ def user_login(request):
 
 		return HttpResponse(json.dumps(user_info))
 	else:
-		return render(request, 'locator_cam/login.html', {})
+		return render(request, 'locator_cam/search_user.html', {})
 
 @login_required
 def search_user(request):
