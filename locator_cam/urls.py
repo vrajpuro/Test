@@ -24,7 +24,6 @@ Including another URLconf
 
 from django.conf.urls import patterns, include, url
 from django.conf.urls.static import static
-from django.conf.urls.defaults import *
 from django.conf import settings
 import django.views.defaults
 from . import views
