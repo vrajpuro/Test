@@ -29,7 +29,6 @@ import django.views.defaults
 from . import views
 
 urlpatterns = patterns('',
-	'locator_cam.views',
     url(r'^404/$', django.views.defaults.page_not_found),
 	url(r'^$', views.index, name='index'),
 	url(r'^$', 'homepage', name='homepage'),
