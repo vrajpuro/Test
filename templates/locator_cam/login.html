@@ -8,7 +8,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="{% static 'boot//favicon.ico' %}">
+    <link rel="icon" href="{% static 'boot/favicon.ico' %}">
 
     <title>Home Page - PhoGo</title>
 
@@ -37,7 +37,7 @@
 
 <div class="container">
 
-    <form class="form-signin" method="post" action="/login">
+    <form class="form-signin" method="post" action="{% url 'locator_app:homepage' %}">
         {% csrf_token %}
         <h2 class="form-signin-heading">Please sign in</h2>
         <label for="inputEmail" class="sr-only">Username</label>
