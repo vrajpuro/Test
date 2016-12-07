@@ -50,9 +50,8 @@ urlpatterns = patterns('',
 	url(r'^get-channel-administrators/$', views.get_channel_administrators, name='get-channel-administrators'),
 	url(r'^remove-member-from-channel/$', views.remove_member_from_channel, name='remove-member-from-channel'),
 	url(r'^remove-administrator-from-channel/$', views.remove_administrator_from_channel, name='remove-administrator-from-channel'),
-	url(r'^delete-channel/$', views.delete_channel, name='delete-channel'),
-
-	                      ) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+	url(r'^delete-channel/$', views.delete_channel, name='delete-channel')
+	) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
 
