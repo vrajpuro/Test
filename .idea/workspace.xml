@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87848c79-4342-4127-93c5-49e4adf6d46f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locator_cam/views.py" afterPath="$PROJECT_DIR$/locator_cam/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/locator_cam/login.html" afterPath="$PROJECT_DIR$/templates/locator_cam/login.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,8 +53,8 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/locator_cam/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="49" column="90" lean-forward="false" selection-start-line="49" selection-start-column="90" selection-end-line="49" selection-end-column="90" />
+            <state relative-caret-position="648">
+              <caret line="51" column="26" lean-forward="true" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -943,12 +942,12 @@
       <workItem from="1481099636595" duration="2663000" />
       <workItem from="1481105422458" duration="63000" />
       <workItem from="1481129876160" duration="3117000" />
-      <workItem from="1481135235093" duration="2446000" />
+      <workItem from="1481135235093" duration="2535000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44014000" />
+    <option name="totallyTimeSpent" value="44103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1394,8 +1393,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/locator_cam/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="49" column="90" lean-forward="false" selection-start-line="49" selection-start-column="90" selection-end-line="49" selection-end-column="90" />
+        <state relative-caret-position="648">
+          <caret line="51" column="26" lean-forward="true" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
           <folding />
         </state>
       </provider>
