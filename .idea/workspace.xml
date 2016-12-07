@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="87848c79-4342-4127-93c5-49e4adf6d46f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locator_cam/urls.py" afterPath="$PROJECT_DIR$/locator_cam/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locator_cam/views.py" afterPath="$PROJECT_DIR$/locator_cam/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -93,14 +94,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/locator_cam/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+            <state relative-caret-position="425">
+              <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
               <folding>
                 <element signature="e#771#822#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/locator_cam/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="26" column="45" lean-forward="false" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -193,8 +204,6 @@
         <option value="$PROJECT_DIR$/locator_cam/migrations/0025_auto_20160625_2358.py" />
         <option value="$PROJECT_DIR$/locator_cam/migrations/0026_auto_20160709_2318.py" />
         <option value="$PROJECT_DIR$/locator_cam/migrations/0007_auto_20160527_2145.py" />
-        <option value="$PROJECT_DIR$/locator_cam/views.py" />
-        <option value="$PROJECT_DIR$/locator_cam/views.py" />
         <option value="$PROJECT_DIR$/templates/locator_cam/1.html" />
         <option value="$PROJECT_DIR$/locator_cam/settings.py" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
@@ -205,6 +214,8 @@
         <option value="$PROJECT_DIR$/templates/locator_cam/homepage.html" />
         <option value="$PROJECT_DIR$/templates/locator_cam/login.html" />
         <option value="$PROJECT_DIR$/locator_cam/urls.py" />
+        <option value="$PROJECT_DIR$/locator_cam/views.py" />
+        <option value="$PROJECT_DIR$/locator_cam/views.py" />
       </list>
     </option>
   </component>
@@ -917,12 +928,12 @@
       <workItem from="1480968427116" duration="1306000" />
       <workItem from="1481066478667" duration="7000" />
       <workItem from="1481068198915" duration="18059000" />
-      <workItem from="1481099636595" duration="2182000" />
+      <workItem from="1481099636595" duration="2421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37907000" />
+    <option name="totallyTimeSpent" value="38146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1235,13 +1246,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locator_cam/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="108" column="55" lean-forward="true" selection-start-line="108" selection-start-column="55" selection-end-line="108" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/locator_cam/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1333,11 +1337,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/locator_cam/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        <state relative-caret-position="425">
+          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
           <folding>
             <element signature="e#771#822#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locator_cam/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="45" lean-forward="false" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
