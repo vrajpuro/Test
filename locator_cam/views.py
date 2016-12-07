@@ -109,11 +109,6 @@ def search_user(request):
 		content_type = request.POST.get('content_type')
 		username = request.POST.get('username')
 		users = User.objects.filter(username__icontains=username)
-		if content_type == 'JSON':
-			res_json = {
-				'users': [user.username for user in users]
-			}
-			return HttpResponse(json.dumps(res_json))
 
 	return render(request, '/search_user.html', {'users': users})
 
