@@ -24,13 +24,16 @@ Including another URLconf
 
 from django.conf.urls import patterns, include, url
 from django.conf.urls.static import static
+from django.conf.urls.defaults import *
 from django.conf import settings
 import django.views.defaults
 from . import views
 
 urlpatterns = patterns('',
+	'myproject.views',
     url(r'^404/$', django.views.defaults.page_not_found),
 	url(r'^$', views.index, name='index'),
+	url(r'^$', 'homepage', name='homepage'),
 	url(r'^register/$', views.register, name='register'),
 	url(r'^login/$', views.user_login, name='login'),
 	url(r'^search-user/$', views.search_user, name='search-user'),
