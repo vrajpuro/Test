@@ -96,9 +96,11 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/locator_cam/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="374">
+              <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+              <folding>
+                <element signature="e#771#822#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -915,12 +917,12 @@
       <workItem from="1480968427116" duration="1306000" />
       <workItem from="1481066478667" duration="7000" />
       <workItem from="1481068198915" duration="18059000" />
-      <workItem from="1481099636595" duration="1955000" />
+      <workItem from="1481099636595" duration="2053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37680000" />
+    <option name="totallyTimeSpent" value="37778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1331,9 +1333,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/locator_cam/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="374">
+          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding>
+            <element signature="e#771#822#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
