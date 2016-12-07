@@ -23,11 +23,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/locator_cam/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="35" column="128" lean-forward="false" selection-start-line="35" selection-start-column="128" selection-end-line="35" selection-end-column="128" />
+            <state relative-caret-position="340">
+              <caret line="37" column="135" lean-forward="true" selection-start-line="37" selection-start-column="135" selection-end-line="37" selection-end-column="135" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#2174#2180#0" expanded="true" />
+                <element signature="e#2190#2196#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -896,12 +896,12 @@
       <workItem from="1480967078648" duration="687000" />
       <workItem from="1480968427116" duration="1306000" />
       <workItem from="1481066478667" duration="7000" />
-      <workItem from="1481068198915" duration="16118000" />
+      <workItem from="1481068198915" duration="16341000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33784000" />
+    <option name="totallyTimeSpent" value="34007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1318,11 +1318,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/locator_cam/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="35" column="128" lean-forward="false" selection-start-line="35" selection-start-column="128" selection-end-line="35" selection-end-column="128" />
+        <state relative-caret-position="340">
+          <caret line="37" column="135" lean-forward="true" selection-start-line="37" selection-start-column="135" selection-end-line="37" selection-end-column="135" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2174#2180#0" expanded="true" />
+            <element signature="e#2190#2196#0" expanded="true" />
           </folding>
         </state>
       </provider>
