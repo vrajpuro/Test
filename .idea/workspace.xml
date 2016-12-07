@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87848c79-4342-4127-93c5-49e4adf6d46f" name="Default" comment="" />
+    <list default="true" id="87848c79-4342-4127-93c5-49e4adf6d46f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locator_cam/urls.py" afterPath="$PROJECT_DIR$/locator_cam/urls.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/locator_cam/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
-              <caret line="144" column="41" lean-forward="false" selection-start-line="144" selection-start-column="41" selection-end-line="144" selection-end-column="41" />
+              <caret line="144" column="16" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -61,9 +63,11 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/locator_cam/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="816">
+              <caret line="57" column="40" lean-forward="false" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+              <folding>
+                <element signature="e#771#822#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,8 +166,8 @@
         <option value="$PROJECT_DIR$/templates/locator_cam/1.html" />
         <option value="$PROJECT_DIR$/templates/locator_cam/index.html" />
         <option value="$PROJECT_DIR$/locator_cam/settings.py" />
-        <option value="$PROJECT_DIR$/locator_cam/urls.py" />
         <option value="$PROJECT_DIR$/templates/locator_cam/login.html" />
+        <option value="$PROJECT_DIR$/locator_cam/urls.py" />
       </list>
     </option>
   </component>
@@ -870,12 +874,12 @@
       <workItem from="1480967078648" duration="687000" />
       <workItem from="1480968427116" duration="1306000" />
       <workItem from="1481066478667" duration="7000" />
-      <workItem from="1481068198915" duration="3799000" />
+      <workItem from="1481068198915" duration="3940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21465000" />
+    <option name="totallyTimeSpent" value="21606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1282,16 +1286,18 @@
     <entry file="file://$PROJECT_DIR$/locator_cam/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="144" column="41" lean-forward="false" selection-start-line="144" selection-start-column="41" selection-end-line="144" selection-end-column="41" />
+          <caret line="144" column="16" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/locator_cam/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="816">
+          <caret line="57" column="40" lean-forward="false" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+          <folding>
+            <element signature="e#771#822#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
