@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87848c79-4342-4127-93c5-49e4adf6d46f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/locator_cam/homepage.html" afterPath="$PROJECT_DIR$/templates/locator_cam/homepage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/locator_cam/index.html" afterPath="$PROJECT_DIR$/templates/locator_cam/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/locator_cam/login.html" afterPath="$PROJECT_DIR$/templates/locator_cam/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/locator_cam/register.html" afterPath="$PROJECT_DIR$/templates/locator_cam/register.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepage.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="homepage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/locator_cam/homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
+            <state relative-caret-position="935">
               <caret line="55" column="59" lean-forward="false" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
               <folding />
             </state>
@@ -56,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/locator_cam/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="535">
+              <caret line="39" column="67" lean-forward="false" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -206,8 +203,8 @@
         <option value="$PROJECT_DIR$/templates/locator_cam/index-1.html" />
         <option value="$PROJECT_DIR$/templates/locator_cam/index.html" />
         <option value="$PROJECT_DIR$/templates/locator_cam/register.html" />
-        <option value="$PROJECT_DIR$/templates/locator_cam/login.html" />
         <option value="$PROJECT_DIR$/templates/locator_cam/homepage.html" />
+        <option value="$PROJECT_DIR$/templates/locator_cam/login.html" />
       </list>
     </option>
   </component>
@@ -920,12 +917,12 @@
       <workItem from="1480968427116" duration="1306000" />
       <workItem from="1481066478667" duration="7000" />
       <workItem from="1481068198915" duration="18059000" />
-      <workItem from="1481099636595" duration="1431000" />
+      <workItem from="1481099636595" duration="1545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37156000" />
+    <option name="totallyTimeSpent" value="37270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1309,6 +1306,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/locator_cam/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/locator_cam/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="59" lean-forward="false" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/locator_cam/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1320,26 +1333,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/locator_cam/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/locator_cam/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/locator_cam/homepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="55" column="59" lean-forward="false" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
+        <state relative-caret-position="535">
+          <caret line="39" column="67" lean-forward="false" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
           <folding />
         </state>
       </provider>
