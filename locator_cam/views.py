@@ -106,7 +106,6 @@ def user_login(request):
 def search_user(request):
 	users = []
 	if request.method == 'POST':
-		content_type = request.POST.get('content_type')
 		username = request.POST.get('username')
 		users = User.objects.filter(username__icontains=username)
 
